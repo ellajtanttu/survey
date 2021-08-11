@@ -1,3 +1,19 @@
-#results {
+#output {
   display: none;
+}
+.btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.titlesect {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.container#slim {
+  max-width: 700px;
+  font-family: 'Lobster Two', cursive;
+}
+.btn {
+  border: 2px mediumaquamarine;
+  border-radius: 10px;
 }
