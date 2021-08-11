@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Survey</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Personality Survey</h1>
+    <h3>Fill in the blanks to tell me about you!</h3>
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="name">What is your name?</label>
+          <input id="name" class="form-control" type="text">
+          <!-- previously person1 -->
+        </div>
+        <div class="form-group">
+          <label for="food">What is your favorite food of the options listed?</label>
+          <select class="form-control" id="food">
+            <option>Select an option</option>
+            <option>Mac & Cheese</option>
+            <option>Ravioli</option>
+            <option>Wings</option>
+            <option>Broccoli</option>
+          </select>
+          <!-- <input id="food" class="form-control" type="text"> -->
+          <!-- previously person2 -->
+        </div>
+        <div class="form-group">
+          <label for="music">From the options shown, which is your favorite genre of music?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="country" checked>
+              Country
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="blues">
+              Blues
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="classical">
+              Classical
+            </label>
+          </div>
+          <!-- <input id="music" class="form-control" type="text"> -->
+          <!-- previously animal -->
+        </div>
+        <div class="form-group">
+          <label for="birthday">When is your birthday this year?</label>
+          <input id="birthday" class="form-control" type="date">
+          <!-- <input id="birthday" class="form-control" type="text"> -->
+          <!-- previously exclamation -->
+        </div>
+        <div class="form-group">
+          <label for="color">What is your favorite color to wear?</label>
+          <input id="color" class="form-control" type="color">
+          <!-- <input id="color" class="form-control" type="text"> -->
+          <!-- previously verb -->
+        </div>
+        <button type="submit" class="btn">submit</button>
+      </form>
+    </div>
+
+    <div id="results">
+      <p>Here's what we know about you:</p>
+      <p>Your name is <span class="name"></span></p> 
+      <p>Your favorite food is <span class="food"></span></p>
+      <p>Your favorite music genre is <span class="music"></span> </p>
+      <p>Your birthday this year will be: <span class="birthday"></span></p>
+      <p>Your favorite color for clothing is <span class="color"></span></p>
+    </div>
+  </div>
+</body>
+
+</html>
