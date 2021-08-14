@@ -1,6 +1,6 @@
-# _Ella Tanttu's Portfolio_
+# _Survey_
 
-#### _A Portfolio collection of existing projects in Ella's Github Repositories._
+#### _EPICODUS PRACTICE: A website that collects info about user preferences in a form._
 
 #### By _**Ella Tanttu**_
 
@@ -8,25 +8,26 @@
 
 * _CSS_
 * _HTML_
+* _Javascript_
 * _Markdown_
 * _Git Repositories_
 
 ## Description
 
-_{This is a website that lists the names, descriptions, goals, and languages for each project that I have created, along with a button to navigate to the corresponding Git Repository on Github. Other information includes work history and useful information about myself.}_
+_{This is a website that has a form to collect different information about the user and then upon submission presents a summary of the answers. This is an epicodus exercise that was created for practice with form input types.}_
 
 ## Setup/Installation Requirements
 
-* _Navigate to https://github.com/ellajtanttu/portfolio in your browser_
+* _Navigate to https://github.com/ellajtanttu/survey in your browser_
 * _Clone this repository to your desktop_
 * _Navigate to the top level of the directory_
 * _Connect to your github repository_
-* _open portfolio/index.html in your browser_
+* _open survey/index.html in your browser_
 * _Open index.html and styles.css in VS Code to edit_
 
 ## Known Bugs
 
-_No known issues_
+_Unfinished: all terms change to definitions when only one is clicked._
 
 ## License
 
@@ -35,3 +36,5 @@ _{MIT Copyright (c) 2021 Ella Tanttu}_
 ## Contact Information
 
 _{Ella Tanttu ellajtanttu@gmail.com}_
+
+
